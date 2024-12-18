@@ -18,3 +18,11 @@ data = {'Имя': ['Ilia', 'Karina', Masha', 'Oleg'],
 df = pd.DataFrame(data)
 
 print(df.tail(2))
+
+    'Город': ['Moscow', 'Saint-Petersburg', 'Novosibirsk', 'Krasnoyarsk']
+
+df = pd.DataFrame(data)
+
+selected_columns = ['Имя', 'Город']
+result_df = df[selected_columns]
+print(result_df)
