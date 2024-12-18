@@ -13,8 +13,8 @@ print(df_excel.head())
 print(df_excel.info())
 
 
-data = {'Имя': ['Ivan', 'Ania', 'Sergey', 'Oleg'],
-        'Возраст': [25, 30, 22, 28]}
+data = {'Имя': ['Ilia', 'Karina', Masha', 'Oleg'],
+        'Возраст': [31, 52, 17, 15]}
 df = pd.DataFrame(data)
 
 print(df.tail(2))
