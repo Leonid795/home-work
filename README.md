@@ -33,11 +33,21 @@ print(result_df)
 1.
 import pandas as pd
 df_excel = pd.read_excel('dataset(5).xlsx')
-print(df_excel.head())
+print(df_excel.head(5))
 2.
 import pandas as pd
 df_excel = pd.read_excel('dataset(5).xlsx')
-print(df_excel.tail())
+print(df_excel.tail(5))
+3.
+import pandas as pd
+df_excel = pd.read_excel('dataset(5).xlsx')
+print(df_excel.sample(5))
+4.
+a=int(input("напишите номер строки"))
+df_excel = pd.read_excel('dataset(5).xlsx')
+print(df_excel)
+
+
 
 
 
