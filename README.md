@@ -26,3 +26,18 @@ df = pd.DataFrame(data)
 selected_columns = ['Имя', 'Город']
 result_df = df[selected_columns]
 print(result_df)
+
+
+
+25.12.24
+1.
+import pandas as pd
+df_excel = pd.read_excel('dataset(5).xlsx')
+print(df_excel.head())
+2.
+import pandas as pd
+df_excel = pd.read_excel('dataset(5).xlsx')
+print(df_excel.tail())
+
+
+
