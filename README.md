@@ -26,6 +26,13 @@ df = pd.DataFrame(data)
 selected_columns = ['Имя', 'Город']
 result_df = df[selected_columns]
 print(result_df)
+22.01.25
+import pandas as pd
+x = int(input("введите строчку"))
+y = int(input("введите столбец"))
+df_exel = pd. read_exel('Книга1.exel')
+print(df_exel.iloc[x,y])
+
 
 
 
