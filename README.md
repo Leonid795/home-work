@@ -53,6 +53,14 @@ print(df_excel.sample(5))
 a=int(input("напишите номер строки"))
 df_excel = pd.read_excel('dataset(5).xlsx')
 print(df_excel)
+22.01.25
+import pandas as pd
+x = int(input("введите строчку"))
+y = int(input("введите столбец"))
+
+df_exel = pd. read_exel('Книга1.exel')
+print(df_exel.iloc[x,y])
+
 
 
 
